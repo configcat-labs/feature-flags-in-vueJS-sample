@@ -70,7 +70,7 @@ body {
 
 #app {
 	text-align: center;
-	background-image: linear-gradient(110deg, #1c3863 0%, #01183b 100%);
+	 background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -80,9 +80,9 @@ body {
 
 .btn {
 	color: rgb(16, 82, 54);
-	background-color: #FFF;
+	  background-color: royalblue;
 	border: none;
-	padding: 13px 25px;
+	 padding: 8px 16px;
 	border-radius: 15px;
 	font-size: 1.2rem;
 	cursor: pointer;
