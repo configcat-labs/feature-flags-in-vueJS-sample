@@ -1,4 +1,4 @@
-# ConfigCat with VueJS
+# How To Use Feature Flags in Vue.JS
 ## Application's Functionality:
 On load of the app, you are provided a button that asks if you want to calculate your age. When clicked, it sends a status request to [ConfigCat](https://configcat.com) for that feature. If the calculateUserAgeFeature flag is toggled on the configCat dashboard, the feature is enabled for use and an input field appears for a user to calculate their age based on birth year. But if the feature flag is toggled off, a message is displayed telling the user that the feature is currently disabled by the admin.
 
