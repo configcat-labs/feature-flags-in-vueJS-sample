@@ -34,17 +34,13 @@ import { computed, reactive } from 'vue';
 import { FeatureWrapper } from 'configcat-vue';
 
 const appData = reactive({
-  userAgeFeature: null,
-  error: null,
   birthYear: '',
   age: '',
-  errorMessage: '',
 });
 
 const yearRegex = /^(?:19|20)\d{2}$/;
 
 const calculateUserAge = () => {
-  appData.errorMessage = '';
   const userAge = new Date().getFullYear() - Number(appData.birthYear);
   appData.age = userAge.toString();
   appData.birthYear = '';
